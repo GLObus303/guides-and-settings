@@ -1,5 +1,7 @@
 # Extensions
 
+[**<- Back to main**](README.md)
+
 **Full list of extensions with small descriptions below**
 
 ![extensions](https://i.ibb.co/hdtNLdz/Screenshot-2020-07-17-at-18-16-29.png)

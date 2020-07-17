@@ -1,5 +1,7 @@
 # Settings
 
+[**<- Back to main**](README.md)
+
 **Paste to JSON settings in VSCode - open with `cmd + shift + p` ( `ctrl + shift + p` ) and by typing `Preferences: Open Settings (JSON)`**
 
 Some of those settings are tied to [Extensions](extensions.md).

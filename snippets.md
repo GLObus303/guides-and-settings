@@ -1,5 +1,7 @@
 # Snippets
 
+[**<- Back to main**](README.md)
+
 You can find them in **Preferences > User Snippets**, they are separated into files per each language so they must be opened one by one yet the similar languages are identical.
 
 ## CSS/SASS
