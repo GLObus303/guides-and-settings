@@ -13,8 +13,15 @@ Some of those settings are tied to [Extensions](extensions.md).
   "workbench.activityBar.visible": false,
   "workbench.startupEditor": "newUntitledFile",
   "workbench.statusBar.visible": false,
-  "breadcrumbs.enabled": false,
+  "breadcrumbs.enabled": true,
   "window.zoomLevel": 0,
+  "workbench.editorAssociations": [
+    {
+      "viewType": "default",
+      "filenamePattern": "git-rebase-todo"
+    }
+  ],
+  // "workbench.editor.enablePreview": false,
 
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
@@ -31,9 +38,15 @@ Some of those settings are tied to [Extensions](extensions.md).
   "explorer.openEditors.visible": 0,
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
+  "explorer.compactFolders": false,
 
   // Formatter settings
   "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // "editor.formatOnSaveMode": "modifications"
 
   // ESLint Settings
   "eslint.enable": true,
@@ -45,12 +58,20 @@ Some of those settings are tied to [Extensions](extensions.md).
   "gitlens.advanced.messages": {
     "suppressShowKeyBindingsNotice": true
   },
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "typescript.updateImportsOnFileMove.enabled": "always",
   "files.watcherExclude": {
     "/.git/objects/**": true,
     "/.git/subtree-cache/**": true,
     "/node_modules/*/**": true
-  }
+  },
+  "sync.gist": "7c861aa9b54c66a429cc816310a8589e",
+  "sync.autoUpload": true,
+
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "javascript.preferences.importModuleSpecifier": "relative",
+  "tabnine.experimentalAutoImports": true,
+  "svg.preview.mode": "svg",
+  "extensions.ignoreRecommendations": true
 }
 ```
