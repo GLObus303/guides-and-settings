@@ -27,8 +27,8 @@ _The ultimate guide for smart bug reporting that helps everyone_
 
 Screenshot 1:
 
-![Notification error](https://pasteboard.co/JKQWEsV.png)
+![Notification error](https://i.ibb.co/WVQdwfk/bc080c0f-e055-49d9-9fe9-f62501914b29.png)
 
 Screnshot 2:
 
-![Console error](https://pasteboard.co/JKQWX00.png)
+![Console error](https://i.ibb.co/sbCNtqS/e911f1d6-9f47-4509-9d4e-1ea55d84aba0.png)
