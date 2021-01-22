@@ -12,6 +12,7 @@ This will be separated into two sections - the VSCode part and the guide part. F
   - Guides
     - [Git flow](Guide/gitFlow.md)
     - [Bug reporting](Guide/bugReport.md)
+    - [Links/tools](Guide/links.md)
 
 I hope it helps,
 Enjoy.
