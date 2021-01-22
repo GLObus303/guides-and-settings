@@ -2,7 +2,9 @@
 
 [**<- Back to main**](README.md)
 
-You can find them in **Preferences > User Snippets**, they are separated into files per each language so they must be opened one by one yet the similar languages are identical.
+You can find them in **Preferences > User Snippets**, they are separated into files per each language so they must be opened one by one. Recently, I have started using global settings which is just much more convenient. 
+
+- Some of these settings might be project-related and I do recommend you trying to think of ways to automate your day-to-day proccesses.
 
 ## global.code-snippets
 
@@ -98,6 +100,18 @@ You can find them in **Preferences > User Snippets**, they are separated into fi
   "snap": {
     "prefix": "snap",
     "body": "expect(${0:container}).toMatchSnapshot();"
+  },
+  "theme": {
+    "prefix": "theme",
+    "body": ["@include themed() {", "$0$TM_SELECTED_TEXT", "}"]
+  },
+  "color": {
+    "prefix": "col",
+    "body": "t('$0$TM_SELECTED_TEXT')"
+  },
+  "white": {
+    "prefix": "whi",
+    "body": "t('color--white')"
   }
 }
 ```
