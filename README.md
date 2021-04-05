@@ -5,10 +5,12 @@ For readability, the settings are separated into files. For day-to-day use, I hi
 This will be separated into two sections - the VSCode part and the guide part. Feel free to use any of them.
 
 - Table of contents
-  - VSCode
-    - [Extensions](VSCode/extensions.md)
-    - [Settings](VSCode/settings.md)
-    - [Snippets](VSCode/snippets.md)
+  - Setiings
+    - VSCode
+      - [Extensions](Settings/VSCode/extensions.md)
+      - [Settings](Settings/VSCode/settings.md)
+      - [Snippets](Settings/VSCode/snippets.md)
+    - [Hyper](Settings/hyper.md)
   - Guides
     - [Git flow](Guide/gitFlow.md)
     - [Bug reporting](Guide/bugReport.md)
