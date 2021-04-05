@@ -14,7 +14,6 @@ Some of those settings are tied to [Extensions](extensions.md).
   "workbench.startupEditor": "newUntitledFile",
   "workbench.statusBar.visible": false,
   "breadcrumbs.enabled": true,
-  "window.zoomLevel": 0,
   "workbench.editorAssociations": [
     {
       "viewType": "default",
@@ -54,10 +53,13 @@ Some of those settings are tied to [Extensions](extensions.md).
     "source.fixAll.eslint": true
   },
 
-  // Other
-  "gitlens.advanced.messages": {
-    "suppressShowKeyBindingsNotice": true
+  // Tailwind
+  "editor.quickSuggestions": {
+    "strings": true
   },
+
+  // Other
+ 
   "files.watcherExclude": {
     "/.git/objects/**": true,
     "/.git/subtree-cache/**": true,
@@ -72,6 +74,8 @@ Some of those settings are tied to [Extensions](extensions.md).
   "javascript.preferences.importModuleSpecifier": "relative",
   "tabnine.experimentalAutoImports": true,
   "svg.preview.mode": "svg",
-  "extensions.ignoreRecommendations": true
+  "extensions.ignoreRecommendations": true,
+  "gitlens.codeLens.enabled": false,
+  "gitlens.statusBar.enabled": false,
 }
 ```
