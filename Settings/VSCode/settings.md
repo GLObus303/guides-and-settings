@@ -8,28 +8,24 @@ Some of those settings are tied to [Extensions](extensions.md).
 
 ```
 {
+  "http.proxySupport": "off",
   "workbench.iconTheme": "vscode-icons",
   "workbench.colorTheme": "Atom One Dark",
   "workbench.activityBar.visible": false,
   "workbench.startupEditor": "newUntitledFile",
   "workbench.statusBar.visible": false,
   "breadcrumbs.enabled": true,
-  "workbench.editorAssociations": [
-    {
-      "viewType": "default",
-      "filenamePattern": "git-rebase-todo"
-    }
-  ],
+  "workbench.editorAssociations": {
+    "git-rebase-todo": "default"
+  },
   // "workbench.editor.enablePreview": false,
 
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
   "telemetry.enableTelemetry": false,
   "editor.minimap.enabled": false,
-  "editor.folding": false,
   "editor.overviewRulerBorder": true,
   "editor.hideCursorInOverviewRuler": true,
-  "editor.renderIndentGuides": false,
   "editor.renderLineHighlight": "gutter",
   "editor.renderWhitespace": "none",
   "editor.multiCursorModifier": "alt",
@@ -45,9 +41,14 @@ Some of those settings are tied to [Extensions](extensions.md).
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  // "editor.formatOnSaveMode": "modifications"
+  "[go]": {
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "golang.go"
+  },
+  // "editor.formatOnSaveMode": "modifications",
 
-  // ESLint Settings
+  // // ESLint Settings
   "eslint.enable": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
@@ -59,14 +60,12 @@ Some of those settings are tied to [Extensions](extensions.md).
   },
 
   // Other
- 
+
   "files.watcherExclude": {
     "/.git/objects/**": true,
     "/.git/subtree-cache/**": true,
     "/node_modules/*/**": true
   },
-  "sync.gist": "7c861aa9b54c66a429cc816310a8589e",
-  "sync.autoUpload": true,
 
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
@@ -75,7 +74,11 @@ Some of those settings are tied to [Extensions](extensions.md).
   "tabnine.experimentalAutoImports": true,
   "svg.preview.mode": "svg",
   "extensions.ignoreRecommendations": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "gitlens.hovers.currentLine.over": "line",
   "gitlens.codeLens.enabled": false,
   "gitlens.statusBar.enabled": false,
+  "editor.guides.indentation": false,
+  "editor.folding": false
 }
 ```
