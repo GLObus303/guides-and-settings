@@ -8,32 +8,42 @@ Some of those settings are tied to [Extensions](extensions.md).
 
 ```
 {
-  "http.proxySupport": "off",
-  "workbench.iconTheme": "vscode-icons",
+  // Testing
+  "editor.gotoLocation.multipleDeclarations": "goto",
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.gotoLocation.multipleImplementations": "goto",
+  "editor.gotoLocation.multipleReferences": "goto",
+  "editor.gotoLocation.multipleTypeDefinitions": "goto",
+
+  // Basic setup
   "workbench.colorTheme": "Atom One Dark",
-  "workbench.activityBar.visible": false,
+  "workbench.iconTheme": "vscode-icons",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.statusBar.visible": false,
-  "breadcrumbs.enabled": true,
+  "workbench.activityBar.visible": false,
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
   "workbench.editorAssociations": {
     "git-rebase-todo": "default"
   },
+  "window.newWindowDimensions": "fullscreen",
   // "workbench.editor.enablePreview": false,
-
-  "editor.tabSize": 2,
-  "editor.wordWrap": "on",
-  "telemetry.enableTelemetry": false,
-  "editor.minimap.enabled": false,
-  "editor.overviewRulerBorder": true,
-  "editor.hideCursorInOverviewRuler": true,
-  "editor.renderLineHighlight": "gutter",
-  "editor.renderWhitespace": "none",
-  "editor.multiCursorModifier": "alt",
 
   "explorer.openEditors.visible": 0,
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
   "explorer.compactFolders": false,
+
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+  "editor.overviewRulerBorder": true,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.renderLineHighlight": "gutter",
+  "editor.renderWhitespace": "none",
+  "editor.guides.indentation": false,
+  "editor.inlineSuggest.enabled": true,
+  "editor.snippetSuggestions": "top",
 
   // Formatter settings
   "editor.formatOnSave": true,
@@ -46,7 +56,6 @@ Some of those settings are tied to [Extensions](extensions.md).
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "golang.go"
   },
-  // "editor.formatOnSaveMode": "modifications",
 
   // // ESLint Settings
   "eslint.enable": true,
@@ -59,26 +68,30 @@ Some of those settings are tied to [Extensions](extensions.md).
     "strings": true
   },
 
-  // Other
+  // Git/GitLens
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.codeLens.enabled": false,
+  "gitlens.statusBar.enabled": false,
+  "git.mergeEditor": false,
 
+  // Other
   "files.watcherExclude": {
     "/.git/objects/**": true,
     "/.git/subtree-cache/**": true,
     "/node_modules/*/**": true
   },
+  "security.workspace.trust.untrustedFiles": "open",
+
+  "svg.preview.mode": "svg",
+  "extensions.ignoreRecommendations": true,
+
+  // Occasional
+  "editor.folding": false,
 
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "typescript.preferences.importModuleSpecifier": "relative",
   "javascript.preferences.importModuleSpecifier": "relative",
-  "tabnine.experimentalAutoImports": true,
-  "svg.preview.mode": "svg",
-  "extensions.ignoreRecommendations": true,
-  "security.workspace.trust.untrustedFiles": "open",
-  "gitlens.hovers.currentLine.over": "line",
-  "gitlens.codeLens.enabled": false,
-  "gitlens.statusBar.enabled": false,
-  "editor.guides.indentation": false,
-  "editor.folding": false
 }
+
 ```
