@@ -4,6 +4,8 @@
 
 **Full list of extensions with small descriptions below**
 
+Some extensions are left out intentionally as they are project-specific needs.
+
 ![extensions](https://i.ibb.co/8sQL6yQ/Clean-Shot-2023-10-02-at-16-26-41.png)
 
 ## Recommended
@@ -18,11 +20,11 @@ Auto closes open HTML/JSX tags
 
 ### **Code Spell Checker**
 
-A great tool for spell checking and typo highliting
+An excellent tool for spell-checking and typo-highlighting
 
 ### **Color Highlight**
 
-Visualization utility to see color highlights around colors in editor
+Visualization utility to see color highlights around colors in the editor
 
 ### **EditorConfig for VS Code**
 
@@ -34,11 +36,11 @@ Snippets that suffice most of the use cases during development
 
 ### **ESLint**
 
-ESLint highlighting, complemented up by enabling in settings
+ESLint highlighting, complemented by enabling in-settings
 
 ### **GitHub Copilot + Chat + Labs**
 
-Well known, in-line code suggestions. Great for repepetive code 
+Well-known, in-line code suggestions. Great for repetitive code 
 
 ### **GitLens - Git supercharged**
 
@@ -58,7 +60,7 @@ Sass code highlights, suggestions
 
 ### **vscode-icons**
 
-Nice looking icons which make orientation in file explorer easier
+Nice looking icons that make orientation in file explorer easier
 
 ### **vscode-styled-components**
 
@@ -69,7 +71,7 @@ Code formatting and highlighting of code enabled in settings
 
 ### **SonarLint**
 
-Additional static analysis for code. It does catches quite a lot of interesting issue. Might work weirdly without sign up
+Additional static analysis for code. It does catch quite a lot of interesting issues. It might work weirdly without signing up
 
 ### **SVG**
 
