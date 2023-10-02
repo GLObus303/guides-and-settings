@@ -4,60 +4,73 @@
 
 **Full list of extensions with small descriptions below**
 
-![extensions](https://i.ibb.co/hdtNLdz/Screenshot-2020-07-17-at-18-16-29.png)
+![extensions](https://i.ibb.co/8sQL6yQ/Clean-Shot-2023-10-02-at-16-26-41.png)
 
-## **Atom One Dark Theme**
+## Recommended
+
+### **Atom One Dark Theme**
 
 A color theme for the whole VSCode
 
-## **Auto Close Tag**
+### **Auto Close Tag**
 
 Auto closes open HTML/JSX tags
 
-## **Color Highlight**
+### **Code Spell Checker**
+
+A great tool for spell checking and typo highliting
+
+### **Color Highlight**
 
 Visualization utility to see color highlights around colors in editor
 
-## **Docker**
-
-A tool for suggesting Docker commands
-
-## **EditorConfig for VS Code**
+### **EditorConfig for VS Code**
 
 Adds editorconfig formatting to VSCode
 
-## **ES7 React/Redux/GraphQL/React-Native snippets**
+### **ES7 React/Redux/GraphQL/React-Native snippets**
 
 Snippets that suffice most of the use cases during development
 
-## **ESLint**
+### **ESLint**
 
 ESLint highlighting, complemented up by enabling in settings
 
-## **GitLens - Git supercharged**
+### **GitHub Copilot + Chat + Labs**
+
+Well known, in-line code suggestions. Great for repepetive code 
+
+### **GitLens - Git supercharged**
 
 Niche tool for traversing through the history of git, git blame hints for each line
 
-## **htmltagwrap**
+### **htmltagwrap**
 
 Wrap HTML/JSX element with tags with a single shortcut
 
-## **prettier**
+### **prettier**
 
 Code formatting and highlighting of code enabled in settings
 
-## **Sass**
+### **Sass**
 
 Sass code highlights, suggestions
 
-## **Settings Sync**
-
-So far VSCode doesn't have stable sync option, this does sync settings with private GitHub Gist and makes setup of VSCode one click
-
-## **vscode-icons**
+### **vscode-icons**
 
 Nice looking icons which make orientation in file explorer easier
 
-## **vscode-styled-components**
+### **vscode-styled-components**
 
 Code formatting and highlighting of code enabled in settings
+
+
+### For you to discover
+
+### **SonarLint**
+
+Additional static analysis for code. It does catches quite a lot of interesting issue. Might work weirdly without sign up
+
+### **SVG**
+
+Syntax highlight and preview of SVG
