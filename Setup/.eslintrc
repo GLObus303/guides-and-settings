@@ -80,6 +80,7 @@
     "dot-notation": 2, // Force dot notation wheter possible - Object['string'] results to object.string
     "no-nested-ternary": 2, // Forbid nesting of optional chaining which hinders readability
     "no-unsafe-optional-chaining": 2, // Forbid optional chaining when it could cause TypeError
+    "yoda": 2, // Forbid yoda conditions - if (1 === x) results to if (x === 1)
 
     "jsx-a11y/anchor-is-valid": 0, // Force anchor tag to have valid href attribute
 
