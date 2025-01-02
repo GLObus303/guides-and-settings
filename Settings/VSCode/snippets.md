@@ -115,3 +115,30 @@ You can find them in **Preferences > User Snippets**, they are separated into fi
   }
 }
 ```
+
+## typescriptreact.code-snippets
+
+```
+{
+  "Create a React Functional Component with Type": {
+    "prefix": "rfcts",
+    "body": [
+      "type ${1:${TM_FILENAME_BASE}}Props = {",
+      "${2}",
+      "}",
+      "",
+      "export const ${1:${TM_FILENAME_BASE}}: React.FC<${1:${TM_FILENAME_BASE}}Props> = ({",
+      "${2}",
+      "}) => {",
+      "$0" ,
+      "" ,
+      " return (",
+      "   <div></div>",
+      " )",
+      "}",
+      ""
+    ],
+    "description": "Create a React Functional Component"
+  },
+}
+```
