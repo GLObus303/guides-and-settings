@@ -112,6 +112,13 @@ You can find them in **Preferences > User Snippets**, they are separated into fi
   "white": {
     "prefix": "whi",
     "body": "t('color--white')"
+  },
+  "imst": {
+    "prefix": "imst",
+    "body": [
+      "import style from './${TM_FILENAME_BASE/js|ts|tsx|test|[.]//gi}.module.scss'",
+      "$0"
+    ]
   }
 }
 ```
