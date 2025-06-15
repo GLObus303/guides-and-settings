@@ -6,73 +6,100 @@
 
 Some extensions are left out intentionally as they are project-specific needs.
 
-![extensions](https://i.ibb.co/8sQL6yQ/Clean-Shot-2023-10-02-at-16-26-41.png)
-
-## Recommended
+![extensions](https://github.com/user-attachments/assets/da95a2a0-8a35-4bac-848f-685d089f71f5)
 
 ### **Atom One Dark Theme**
 
 A color theme for the whole VSCode
 
-### **Auto Close Tag**
+### **HTML Tag Wrap**
 
-Auto closes open HTML/JSX tags
+Quickly wraps selected code with HTML tags
 
-### **Code Spell Checker**
+### **Tailwind CSS IntelliSense**
 
-An excellent tool for spell-checking and typo-highlighting
+Autocomplete, syntax highlighting, and linting for Tailwind CSS
 
-### **Color Highlight**
+### **PostCSS Language Support**
 
-Visualization utility to see color highlights around colors in the editor
+Syntax highlighting and snippets for PostCSS
+
+### **ESLint**
+
+Integrates ESLint JavaScript linter into VSCode
+
+### **ES7+ React/Redux/GraphQL/React-Native Snippets**
+
+Snippets for React, Redux, and GraphQL in JS/TS
+
+### **GitLens**
+
+Supercharges the Git capabilities built into VSCode
 
 ### **EditorConfig for VS Code**
 
 Adds editorconfig formatting to VSCode
 
-### **ES7 React/Redux/GraphQL/React-Native snippets**
+### **Prettier - Code Formatter**
 
-Snippets that suffice most of the use cases during development
+Opinionated code formatter for consistent style
 
-### **ESLint**
+### **Auto Close Tag**
 
-ESLint highlighting, complemented by enabling in-settings
+Auto closes open HTML/JSX tags
 
-### **GitHub Copilot + Chat + Labs**
+### **Go**
 
-Well-known, in-line code suggestions. Great for repetitive code 
+Rich language support for the Go programming language
 
-### **GitLens - Git supercharged**
+### **GraphQL**
 
-Niche tool for traversing through the history of git, git blame hints for each line
+GraphQL language support, syntax highlighting, and more
 
-### **htmltagwrap**
+### **GraphQL Syntax Highlighting**
 
-Wrap HTML/JSX element with tags with a single shortcut
+Syntax highlighting for GraphQL files
 
-### **prettier**
+### **SVG Viewer**
 
-Code formatting and highlighting of code enabled in settings
+Preview and edit SVG files directly in VSCode
 
-### **Sass**
+### **Playwright Test for VSCode**
 
-Sass code highlights, suggestions
+Playwright test integration and debugging in VSCode
 
-### **vscode-icons**
+### **Color Highlight**
 
-Nice looking icons that make orientation in file explorer easier
+Visualization utility to see color highlights around colors in the editor
 
-### **vscode-styled-components**
+### **TypeScript Importer**
 
-Code formatting and highlighting of code enabled in settings
-
-
-### For you to discover
+Automatically finds and adds missing TypeScript imports
 
 ### **SonarLint**
 
-Additional static analysis for code. It does catch quite a lot of interesting issues. It might work weirdly without signing up
+Real-time code quality and bug detection
 
-### **SVG**
+### **Code Spell Checker**
 
-Syntax highlight and preview of SVG
+An excellent tool for spell-checking and typo-highlighting
+
+### **Styled Components**
+
+Syntax highlighting and IntelliSense for styled-components
+
+### **Stylelint**
+
+Modern CSS/SCSS linter for VSCode
+
+### **Sass**
+
+Indented Sass syntax highlighting and snippets
+
+### **VSCode Icons**
+
+A comprehensive icon theme for VSCode
+
+### **Pretty TypeScript Errors**
+
+Prettifies TypeScript error messages for better readability
