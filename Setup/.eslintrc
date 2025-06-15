@@ -2,7 +2,7 @@
   "extends": [
     "plugin:@typescript-eslint/recommended",
     "plugin:css-modules/recommended",
-    "next/core-web-vitals",
+    "next/core-web-vitals"
   ],
   "plugins": ["@typescript-eslint", "css-modules", "disable-autofix"],
   "overrides": [
@@ -13,8 +13,8 @@
       "parserOptions": { "project": "./tsconfig.json" },
       "rules": {
         "disable-autofix/@typescript-eslint/no-unnecessary-condition": 1, // Warn about unnecessary conditions, but disable autofix
-        "@typescript-eslint/await-thenable": 2, // Disallow await statements that are not thenable, must be only applied to TS files
-      },
+        "@typescript-eslint/await-thenable": 2 // Disallow await statements that are not thenable, must be only applied to TS files
+      }
     },
     {
       "files": ["*.test.ts", "*.test.tsx"],
@@ -22,9 +22,9 @@
       "rules": {
         "no-unused-expressions": 0,
         "@typescript-eslint/no-unused-expressions": 0,
-        "jest/no-focused-tests": 2, // Forbid focused tests
-      },
-    },
+        "jest/no-focused-tests": 2 // Forbid focused tests
+      }
+    }
   ],
 
   "rules": {
@@ -44,33 +44,34 @@
       {
         "groups": [
           ["builtin", "external"],
-          ["internal", "parent", "sibling", "index"],
+          ["internal", "parent", "sibling", "index"]
         ],
         "newlines-between": "always",
         "pathGroups": [
           {
             "pattern": "react",
             "group": "builtin",
-            "position": "before",
+            "position": "before"
           },
           {
             "pattern": "./**/*.{scss,css}",
             "group": "sibling",
-            "position": "after",
-          },
+            "position": "after"
+          }
         ],
         "distinctGroup": false,
-        "pathGroupsExcludedImportTypes": ["react", "scss"],
-      },
+        "pathGroupsExcludedImportTypes": ["react", "scss"]
+      }
     ], // Sort imports in groups, react first, then external. After a new line, components and lastly in the same group scss import
+    "import/newline-after-import": 2, // Force a newline after imports
     "import/extensions": [
       0,
       "ignorePackages",
       {
         "js": "never",
         "ts": "never",
-        "tsx": "never",
-      },
+        "tsx": "never"
+      }
     ], // Force extensions on imports apart from the JS/TS related ones
     "object-shorthand": 2, // Shorten objects - { someProp: someProp } result to {  someProp }
     "prefer-const": 2, // Force const declarations for variables that are not mutated
@@ -78,7 +79,7 @@
     "spaced-comment": 2, // Force one whitespace after "//" comment
     "no-useless-return": 2, // Forbid all explicit returns that serve not purpose
     "no-irregular-whitespace": 2, // Silent guard from weird whitespace clashes in code
-    "dot-notation": 2, // Force dot notation wheter possible - Object['string'] results to object.string
+    "dot-notation": 2, // Force dot notation whether possible - Object['string'] results to object.string
     "no-nested-ternary": 2, // Forbid nesting of optional chaining which hinders readability
     "no-unsafe-optional-chaining": 2, // Forbid optional chaining when it could cause TypeError
     "yoda": 2, // Forbid yoda conditions - if (1 === x) results to if (x === 1)
@@ -86,7 +87,7 @@
     "jsx-a11y/anchor-is-valid": 0, // Force anchor tag to have valid href attribute
 
     "react/display-name": 0, // Force displayName to be used for components
-    "react/jsx-boolean-value": 2, // <Component someFlag={true} /> results to <Componet someFlag />
+    "react/jsx-boolean-value": 2, // <Component someFlag={true} /> results to <Component someFlag />
     "react/self-closing-comp": 2, // Empty JSX tags will collapse. <div></div> results to <div/>
     "react/jsx-curly-brace-presence": 2, // Avoid having useless curly braces for string props
 
@@ -100,13 +101,13 @@
     "@typescript-eslint/no-explicit-any": 0, // Allows any type, does make sense in some places
     "@typescript-eslint/no-unused-vars": [
       2,
-      { "ignoreRestSiblings": true, "args": "all", "argsIgnorePattern": "^_" },
+      { "ignoreRestSiblings": true, "args": "all", "argsIgnorePattern": "^_" }
     ], // Forbid unused variables, except for the ones that start with "_"
     "@typescript-eslint/no-use-before-define": 2, // Variable must be declared before its use
     "@typescript-eslint/no-shadow": 2, // Forbid declaring variables that have duplicate names in the same scope
     "@typescript-eslint/no-var-requires": 0, // allow require
     "@typescript-eslint/no-empty-function": 0, // allow empty function
 
-    "@next/next/no-img-element": 0, // Allow img elements in Next.js
-  },
+    "@next/next/no-img-element": 0 // Allow img elements in Next.js
+  }
 }
