@@ -7,9 +7,9 @@ This will be separated into three sections. Feel free to use any of them.
 - Table of contents
   - Settings
     - VSCode
-      - [Extensions](Settings/VSCode/extensions.md)
-      - [Settings](Settings/VSCode/settings.md)
-      - [Snippets](Settings/VSCode/snippets.md)
+      - [Extensions](Settings/VSCode(Cursor)/extensions.md)
+      - [Settings](Settings/VSCode(Cursor)/settings.md)
+      - [Snippets](Settings/VSCode(Cursor)/snippets.md)
     - [Hyper](Settings/hyper.md)
   - Guides
     - [Git flow](Guide/gitFlow.md)
