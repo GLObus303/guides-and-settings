@@ -5,7 +5,7 @@ For readability, the settings are separated into files. For day-to-day use, I hi
 This will be separated into three sections. Feel free to use any of them.
 
 - Table of contents
-  - Setiings
+  - Settings
     - VSCode
       - [Extensions](Settings/VSCode/extensions.md)
       - [Settings](Settings/VSCode/settings.md)
