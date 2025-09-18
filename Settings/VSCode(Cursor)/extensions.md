@@ -99,8 +99,10 @@ Indented Sass syntax highlighting and snippets
 
 A comprehensive icon theme for VSCode
 
-![extensions](https://github.com/user-attachments/assets/da95a2a0-8a35-4bac-848f-685d089f71f5)
-
 ### **Pretty TypeScript Errors**
 
 Prettifies TypeScript error messages for better readability
+
+![extensions](https://github.com/user-attachments/assets/da95a2a0-8a35-4bac-848f-685d089f71f5)
+
+
