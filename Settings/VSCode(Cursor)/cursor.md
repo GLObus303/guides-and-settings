@@ -1,5 +1,7 @@
 # Cursor related settings
 
+[**<- Back to main**](../../README.md)
+
 ## User rules
 
 ```

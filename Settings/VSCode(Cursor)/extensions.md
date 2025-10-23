@@ -1,11 +1,10 @@
 # Extensions
 
-[**<- Back to main**](README.md)
+[**<- Back to main**](../../README.md)
 
 **Full list of extensions with small descriptions below**
 
 Some extensions are left out intentionally as they are project-specific needs.
-
 
 ### **Atom One Dark Theme**
 
@@ -104,5 +103,3 @@ A comprehensive icon theme for VSCode
 Prettifies TypeScript error messages for better readability
 
 ![extensions](https://github.com/user-attachments/assets/da95a2a0-8a35-4bac-848f-685d089f71f5)
-
-

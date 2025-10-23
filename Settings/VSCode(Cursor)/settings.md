@@ -1,6 +1,6 @@
 # Settings
 
-[**<- Back to main**](README.md)
+[**<- Back to main**](../../README.md)
 
 **Paste to JSON settings in VSCode - open with `cmd + shift + p` ( `ctrl + shift + p` ) and by typing `Preferences: Open Settings (JSON)`**
 

@@ -1,5 +1,7 @@
 # Bug reporting
 
+[**<- Back to main**](../README.md)
+
 _The ultimate guide for smart bug reporting that helps everyone_
 
 1. The bug has to be consistently reproducible
