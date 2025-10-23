@@ -1,5 +1,7 @@
 # Hyper
 
+[**<- Back to main**](../README.md)
+
 My currently used command line is Hyper. I find it the most convenient, yet there are many other alternatives like iTerm and so on.
 
 - https://hyper.is/
@@ -13,7 +15,7 @@ ZSH_THEME="robbyrussell"
 plugins=(tig yarn npm git wd docker)
 ```
 
-Aliases 
+Aliases
 
 ```
 alias zshconfig="cursor ~/.zshrc"
@@ -30,14 +32,14 @@ alias gisu="git push --set-upstream origin $(git_current_branch)"
 alias ohmyzsh="cursor ~/.oh-my-zsh"
 ```
 
-
 Personal, useless for most:
+
 ```
 export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$PATH
-export PATH=$PATH:/Users/lucizek/go/bin 
+export PATH=$PATH:/Users/lucizek/go/bin
 export PATH="/opt/homebrew/opt/ansible@8/bin:$PATH"
-export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin" 
+export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

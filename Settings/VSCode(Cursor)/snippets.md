@@ -1,8 +1,8 @@
 # Snippets
 
-[**<- Back to main**](README.md)
+[**<- Back to main**](../../README.md)
 
-You can find them in **Preferences > User Snippets**, they are separated into files per each language so they must be opened one by one. Recently, I have started using global settings which is just much more convenient. 
+You can find them in **Preferences > User Snippets**, they are separated into files per each language so they must be opened one by one. Recently, I have started using global settings which is just much more convenient.
 
 - Some of these settings might be project-related and I do recommend you trying to think of ways to automate your day-to-day proccesses.
 
