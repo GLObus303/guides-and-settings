@@ -28,7 +28,7 @@ alias gitf="git fetch --all"
 alias gitca="git commit --amend"
 alias gitcan="git commit --amend --no-edit"
 alias ..="cd .."
-alias gisu="git push --set-upstream origin $(git_current_branch)"
+alias gpsup="git push --set-upstream origin $(git_current_branch)"
 alias ohmyzsh="cursor ~/.oh-my-zsh"
 ```
 
@@ -45,15 +45,14 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 
-alias dcu="docker-compose up"
-alias dcd="docker-compose down"
-
 alias predlink='echo "link: https://$(git_current_branch)-profiles-single-page-application.mwwnextapppreprod-us.monster-next.com/en-us/profile/detail\n\nbranch(this goes to nginx): $(git_current_branch)" | pbcopy'
-alias createjob="java -jar ~/Documents/postJobTool.jar"
 alias cleanplay="rm -rf /var/folders/q6/x1pqm2y56jzfwbmc5kpq1vsm0000gr/T/playwright-transform-cache-504/"
 alias deployrun="git checkout master && git pull && git checkout deploy-master && git reset --hard origin/master && yarn && yarn build:prod && git add . && git commit -m 'Deploy master' && git push -f"
 alias clean300="kill -9 $(lsof -ti:3000)"
+alias ngs="ngrok http --url=https://habited-delilah-limply.ngrok-free.dev 1337"
+alias watch="wd back && yarn swc:dev"
+alias back="wd back && yarn dev"
+alias front="wd front && yarn start:dashboard"
 
-alias gcn="git commit --no-edit"
 alias cbr='echo "document.cookie = \"cbr-$(basename $(pwd))=$(git_current_branch | tr "[:upper:]" "[:lower:]");path=/\"" | pbcopy'
 ```
