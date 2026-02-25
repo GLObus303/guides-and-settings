@@ -47,6 +47,9 @@ Follow these rules when you write code:
 They are now offline/local, before with "docs" in cursor, I was using private github gists
 <img width="794" height="736" alt="CleanShot 2026-02-25 at 15 07 44@2x" src="https://github.com/user-attachments/assets/afc0f86a-d36c-4397-ac5a-f074d6e894fa" />
 
+[React Best practices](https://github.com/vercel-labs/agent-skills/tree/main/skills/react-best-practices)
+[Context7 MCP](https://github.com/upstash/context7) - when you are working with a lot of libraries (increase token consumptions)
+
 
 ## Custom commands
 
@@ -211,3 +214,4 @@ QUALITY BAR:
 
 Stop after writing the markdown file.
 ```
+
