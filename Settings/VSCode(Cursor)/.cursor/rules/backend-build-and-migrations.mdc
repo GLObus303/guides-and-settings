@@ -1,0 +1,22 @@
+---
+description: 
+alwaysApply: true
+---
+
+# Backend Build and Migrations
+
+- When building backend code, use `yarn swc:build`.
+- Do not generate database migrations.
+- If a migration is needed, inform the user so they can generate it.
+
+## Examples
+
+```bash
+# ✅ Correct backend build command
+yarn swc:build
+```
+
+```text
+# ✅ Correct migration behavior
+"A DB migration is needed for this change. Please generate it"
+```

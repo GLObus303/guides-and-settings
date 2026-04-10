@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "hooks": {
+    "sessionStart": [
+      {
+        "command": ".cursor/hooks/session-start.sh",
+        "timeout": 45
+      }
+    ],
+    "preToolUse": [
+      {
+        "command": ".cursor/hooks/block-dangerous-commands.sh",
+        "matcher": "Shell",
+        "failClosed": true
+      },
+      {
+        "command": ".cursor/hooks/protect-files.sh",
+        "matcher": "Write|StrReplace",
+        "failClosed": true
+      },
+      {
+        "command": ".cursor/hooks/guard-migrations.sh",
+        "matcher": "Write|StrReplace",
+        "failClosed": true
+      }
+    ],
+    "postToolUse": [
+      {
+        "command": ".cursor/hooks/remind-api-regen.sh",
+        "matcher": "Write|StrReplace",
+        "timeout": 15
+      },
+      {
+        "command": ".cursor/hooks/remind-migration.sh",
+        "matcher": "Write|StrReplace",
+        "timeout": 15
+      }
+    ],
+    "stop": [
+      {
+        "command": ".cursor/hooks/aggregate-stop.sh",
+        "loop_limit": 3,
+        "timeout": 30
+      }
+    ]
+  }
+}
