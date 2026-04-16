@@ -1,6 +1,6 @@
 ---
 name: validate
-description: Post-implementation validation checklist for Momence. Use after completing a feature to verify code follows codebase practices, patterns from similar recent files, and CLAUDE.md guidelines.
+description: Post-implementation validation checklist for Momence. Use after completing a feature to verify code follows codebase practices, patterns from similar recent files, and CURSOR.md guidelines.
 ---
 
 # Post-Implementation Validation
@@ -89,7 +89,7 @@ git log -1 --format="%ci" -- <file>  # Check when file was last modified
 
 ---
 
-## Phase 2: CLAUDE.md Compliance
+## Phase 2: CURSOR.md Compliance
 
 ### TypeScript Style
 

@@ -33,7 +33,7 @@ ANALYSIS REQUIREMENTS:
 OUTPUT:
 
 - Produce a single Markdown file
-- Save it to: `.cursor/research.md`
+- Save it to: `.cursor/YYYY-MM-DD-<topic>-readme.md`
 - Output MUST be concise and high-level
 - YOU MUST NOT TOUCH ANY FILES OTHER THAN `.cursor/YYYY-MM-DD-<topic>-readme.md`!!!!!!!!!!!!!!!!!
 - The file MUST include:

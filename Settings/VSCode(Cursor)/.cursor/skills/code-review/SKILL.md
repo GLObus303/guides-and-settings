@@ -206,10 +206,10 @@ For test style checks (AAA pattern, `test.each`, naming, mocking), refer to the 
 - [ ] Follows existing patterns in the codebase for similar functionality
 - [ ] Uses established utilities (`groupBy`, `keyBy`, `diffIdArrays`, `saveEntity`, `parallelRun`)
 - [ ] Matches style of recent similar files (not legacy patterns)
-- [ ] Naming conventions followed (see CLAUDE.md)
+- [ ] Naming conventions followed (see CURSOR.md)
 - [ ] One exported service function per file
 
-### CLAUDE.md Compliance
+### CURSOR.md Compliance
 
 Run `/validate` Phase 2 checks (TypeScript style, type safety, naming, concurrency, API usage).
 
@@ -234,7 +234,7 @@ Run `/validate` Phase 2 checks (TypeScript style, type safety, naming, concurren
 - [ ] Failures don't crash the application (graceful degradation where appropriate)
 - [ ] Log messages include context for debugging (`logger.error({ hostId, subscriptionId }, 'Failed to freeze')`)
 
-For `OptionalResult` vs `throw` patterns and logger conventions, refer to `/validate` Phase 2 and CLAUDE.md.
+For `OptionalResult` vs `throw` patterns and logger conventions, refer to `/validate` Phase 2 and CURSOR.md.
 
 ---
 

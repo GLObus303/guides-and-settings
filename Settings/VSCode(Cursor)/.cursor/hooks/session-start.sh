@@ -55,7 +55,7 @@ TMP=$(mktemp)
     USERNAME=$(gh api user --jq '.login' 2>/dev/null)
     if [[ -n "$USERNAME" ]]; then
       TRACKER=""
-      for DIR in "$HOME/.claude/projects/"*/memory; do
+      for DIR in "$HOME/.cursor/projects/"*/memory; do
         if [[ -f "$DIR/processed_prs.md" ]]; then
           TRACKER="$DIR/processed_prs.md"
           break

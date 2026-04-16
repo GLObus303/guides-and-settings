@@ -1,6 +1,6 @@
 ---
 name: improve
-description: Find recently merged PRs with unprocessed review comments and learn from them to improve skills, agents, and CLAUDE.md. Run periodically to keep the knowledge base current.
+description: Find recently merged PRs with unprocessed review comments and learn from them to improve skills, agents, and CURSOR.md. Run periodically to keep the knowledge base current.
 ---
 
 # Improve Skills from PR Feedback
@@ -77,7 +77,7 @@ Process all 2 PRs? (or specify which ones)
 For each PR the user approves:
 
 1. **Run `/learn-from-pr` logic** — fetch all review threads, classify comments, match against existing knowledge, propose changes
-2. **Apply approved changes** to skills, agents, or CLAUDE.md
+2. **Apply approved changes** to skills, agents, or CURSOR.md
 3. **Mark PR as processed** — append the PR number to `processed_prs.md` in memory
 
 After processing each PR, immediately update the tracker so progress is saved even if the session is interrupted.
@@ -95,13 +95,13 @@ PRs processed: 2
 Lessons found: 7
 - 3 already covered
 - 2 added to existing skills
-- 1 added to CLAUDE.md
+- 1 added to CURSOR.md
 - 1 added to review agent
 
 ### Changes Made
 - `/validate` skill: Added check for X
 - `review-backend` agent: Added Y pattern
-- CLAUDE.md: Added Z to coding standards
+- CURSOR.md: Added Z to coding standards
 
 ### Next Steps
 - Run `/validate` on your current work to test the improved checks
